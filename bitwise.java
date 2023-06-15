@@ -2,10 +2,10 @@ import java.util.Scanner;
 public class bitwise{
     public static void main(String args[]) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the first number: ");
+        System.out.print("Enter the first number: ");
         int a=scanner.nextInt();
         scanner.nextLine();
-        System.out.println("Enter the second number: ");
+        System.out.print("Enter the second number: ");
         int b=scanner.nextInt();
         scanner.nextLine();
         int c=a & b,d=a | b,e=a ^ b;
